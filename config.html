@@ -1,0 +1,27 @@
+<head>
+<meta charset="UTF-8">
+</head>
+<body>
+<div><h1>Weather station</h1></div>
+<div><p><b>Hostname:</b> {0}</p></div>
+<div>
+<form action="/apply.html">
+<table>
+<tr><td>Temperature correction:</td><td><input type="text" id="tempcorr" value="{1}" maxlength="4" size="3"></input>C</td></tr>
+<tr><td>Humidity correction:</td><td><input type="text" id="humcorr" value="{2}" maxlength="4" size="3">%</input></td></tr>
+<tr><td>Nodename:</td><td><input type="text" id="nodename" value="{0}" maxlength="15" size="15"></input></td></tr>
+</table>
+<input type="submit"/></form>
+</div>
+
+<div>
+<a href="https://la-tech.pl"><img src="logo.png"></a>
+</div>
+<table>
+<tr>
+<td><a href="">configuration</a></td>
+<td><a href="/api">api</a></td>
+</tr>
+</table>
+</body>
+</html>
