@@ -168,8 +168,8 @@ VEML.setALS(VEML7700_ALS_100MS)
 get_data()
 time.sleep(5)
 
-SSID = "la-tech-2g"
-PASSWORD = "dione2008###.,"
+SSID = "WIFI"
+PASSWORD = "WIFI PASS"
 
 wlan = network.WLAN(network.STA_IF)
 wlan.active(True)
